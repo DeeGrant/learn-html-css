@@ -1,0 +1,23 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+header, section, aside, footer {
+    background: #4eb84e;
+    border-radius: 10px;
+    color: darkslategrey;
+    height: 100px;
+    padding: 40px;
+    margin: 1.5%;
+    text-align: center;
+}
+
+section {
+    float: left;
+    margin-top: 0;
+    width: 30%;
+}
+
+footer {
+    clear: both;
+}
