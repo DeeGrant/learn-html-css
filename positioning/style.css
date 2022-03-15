@@ -11,3 +11,22 @@ header, section, aside, footer {
     margin: 1.5%;
     text-align: center;
 }
+
+section, aside {
+    margin: 0 1.5% 1.5% 1.5%;
+}
+
+section {
+    float: left;
+    width: 63%;
+}
+
+aside {
+    float: right;
+    margin-left: 0;
+    width: 32.5%;
+}
+
+footer {
+    clear: both;
+}
