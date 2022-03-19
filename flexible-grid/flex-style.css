@@ -1,0 +1,27 @@
+.container {
+    background: #648880;
+    width: 100%;
+}
+.container:before,
+.container:after {
+    content: "";
+    display: block;
+}
+.container:after {
+    clear: both;
+}
+section,
+aside {
+    height: 18.5vw;
+    margin: 1.8587%; /* 10px / 538px = .018587 */
+}
+section {
+    background: rgba(254,254,254,.4);
+    float: left;
+    width: 63.1970%; /* 340px / 538px = .631970 */
+}
+aside {
+    background: rgba(0,0,0,.3);
+    float: right;
+    width: 29.3680%; /* 158px / 538px = .293680 */
+}

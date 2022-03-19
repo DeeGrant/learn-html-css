@@ -1,0 +1,27 @@
+.container {
+    background: #648880;
+    width: 538px;
+}
+.container:before,
+.container:after {
+    content: "";
+    display: block;
+}
+.container:after {
+    clear: both;
+}
+section,
+aside {
+    height: 100px;
+    margin: 10px;
+}
+section {
+    background: #ccc;
+    float: left;
+    width: 340px;
+}
+aside {
+    background: #444;
+    float: right;
+    width: 158px;
+}
