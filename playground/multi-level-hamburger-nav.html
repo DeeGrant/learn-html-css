@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Multi Level Hamburger Nav</title>
+    <link rel="stylesheet" href="multi-level-hamburger-nav.css">
+</head>
+<body>
+    <div id="mobileNav">
+        <input type="checkbox" id="top-nav" />
+        <span class="hamburgerspan"></span>
+        <span class="hamburgerspan"></span>
+        <span class="hamburgerspan"></span>
+        <div id="menu-cont-1">
+            <ul class="menu-ul">
+                <li class="nav-item"> item 1</li>
+                <li class="nav-item sub-menu"> item 2
+                    <input type="checkbox" id="menu-1"/>
+                    <div id="menu-cont-2">
+                        <ul class="menu-ul">
+                            <label class="menu-label" for="menu-1">Item 2</label>
+                            <li class="nav-item">item 2-1</li>
+                            <li class="nav-item">item 2-2</li>
+                            <li class="nav-item">item 2-3</li>
+                            <li class="nav-item">item 2-4</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item"> item 3</li>
+                <li class="nav-item"> item 4</li>
+                <li class="nav-item"> item 5</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

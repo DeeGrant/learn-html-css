@@ -1,0 +1,20 @@
+/*.label {*/
+/*    text-transform: uppercase;*/
+/*}*/
+/*div:hover p.new-label span {*/
+/*    display: none;*/
+/*}*/
+/*div:hover p.new-label:after {*/
+/*    content: "New";*/
+/*}*/
+
+p.new-label:hover span {
+    display: none;
+}
+p.new-label:hover:after {
+    content: "New";
+}
+
+
+/* Reduced from Example */
+/* https://jsfiddle.net/fLMSd/14/ */
